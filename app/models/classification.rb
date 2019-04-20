@@ -8,6 +8,6 @@ class Classification < ActiveRecord::Base
   
   def self.longest 
     binding.pry
-    self.
+    self.joins(:boats)
   end 
 end
