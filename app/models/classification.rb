@@ -10,4 +10,6 @@ class Classification < ActiveRecord::Base
     binding.pry
     self.joins(:boats)
   end 
+  
+  
 end
