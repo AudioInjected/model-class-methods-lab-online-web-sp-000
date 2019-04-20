@@ -14,6 +14,6 @@ class Captain < ActiveRecord::Base
   end 
   
   def self.talented_seafarers 
-    self.where("IN, ?")
+    self.where("id IN ?")
   end
 end
