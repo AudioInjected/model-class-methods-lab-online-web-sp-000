@@ -8,5 +8,6 @@ class Classification < ActiveRecord::Base
   
   def self.longest 
     binding.pry
+    self.
   end 
 end
