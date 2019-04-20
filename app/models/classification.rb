@@ -5,4 +5,8 @@ class Classification < ActiveRecord::Base
   def self.my_all 
     self.all.distinct
   end 
+  
+  def self.longest 
+    
+  end 
 end
